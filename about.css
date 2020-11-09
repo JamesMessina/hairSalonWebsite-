@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    height:100%;
+    width:100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 5px ridge;
+    background-color: #88B6A7;
+    padding:10px
+}
+
+nav > a{
+    margin: 45px;
+    font-size: 20px;
+    color: white; 
+}
+
+.name{
+    color: brown;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    text-decoration: underline black;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px; 
+    border-width: 5px;
+    font-family: 'Pinyon Script', cursive;
+  
+}
+
+.NYC_PIC{
+    width: 600px; 
+}
+
+.image{
+    text-align: center;
+}
+
+.tagline{
+    justify-content: center;
+    padding-top: 20px;
+}
+
+footer > div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(121, 116, 111, 0.993);
+}
+
+.copyright{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+i{
+    font-size: 30px;
+    margin-right: 60px; 
+    padding: 20px;
+    color: whitesmoke;
+}
+
+li{
+    line-height: 40px;
+}
+
+.barber-image{
+    height: 150px;
+    width: 250px;
+    padding-left: 0px;
+}
+
+.main-container{
+    background: #EBBFE3;
+    background: -webkit-linear-gradient(top left, #EBBFE3, #0D8F7E);
+    background: -moz-linear-gradient(top left, #EBBFE3, #0D8F7E);
+    background: linear-gradient(to bottom right, #EBBFE3, #0D8F7E);
+}
+
+p{
+    margin: 0px
+}
+
+.history{
+    text-align: center;
+    padding: 20px;
+}
+
+.bigapple{
+    text-decoration:underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media(max-width:1024px){
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .barber-image{
+        padding-left: 10px;
+    }
+
+    .links > a{
+        margin: 5px
+    }
+
+    .links{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .name{
+        text-align: center;
+        padding:20px;
+        margin:0px
+    }
+
+    .bottom-container{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    i{
+        margin: 0;
+    }
+}   
+
+
+
+@media(max-width:600px){
+    .NYC_PIC{
+        width: 80%
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:260px){
+
+    .barber-image{
+        width: 80%
+    }
+    
+}
+
+

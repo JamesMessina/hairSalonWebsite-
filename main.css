@@ -1,0 +1,182 @@
+body{
+    height: 100%;
+    margin: auto; 
+    width: auto;
+    height: auto; 
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 5px ridge;
+    background-color: #88B6A7;
+}
+
+header > p{
+    padding-bottom: 20px;
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: 'Pinyon Script', cursive;
+    font-weight: bold;
+}
+
+nav > a{
+    margin: 45px;
+    font-size: 20px;
+    color: white; 
+}
+
+.name{
+    color: brown;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    text-decoration: underline black;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 15px;
+    background-color: coral;
+    border-bottom: black 10px solid;
+}
+
+.store{
+    width: 500px;
+}
+
+.barbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-right: rgb(64, 63, 71) 10px solid; 
+}
+
+.paulie{
+    height: 300px;
+    width: 220px;
+    object-fit: cover;
+}
+
+img{
+    border: 5px gray ridge;
+    
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button_list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome{
+    margin: 40px;
+}
+
+.button{
+  margin:30px;
+  background-color: #07436b; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer > div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(121, 116, 111, 0.993);
+}
+
+.copyright{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+i{
+    font-size: 30px;
+    margin-right: 60px; 
+}
+
+li{
+    line-height: 40px;
+}
+
+.team{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+@media(max-width:425px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 30% 30%;
+        align-items: center;
+        height: 120px;
+    }
+
+    .bottom{
+        margin: 25px;
+    }
+
+    .main-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons{
+        text-align: center;
+    }
+}
+
+@media(max-width:1024px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    img.store{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .information{
+        text-align: center;
+    }
+}
